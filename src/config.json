@@ -1,0 +1,65 @@
+{
+    "_1comment":"the General settings will apply to all things in the page",
+    "general":{
+        "backGroundColor":"red",
+        "fontType":"sans-serif",
+        "header_1":"28px",
+        "header_2":"20px",
+        "header_3":"18px"
+    },
+
+
+    "_2comment":"sections settings will apply to one section",
+    "sections":{
+
+        "about":{
+            "name":{
+                "color":"white",
+                "fontSize":"28px"
+            },
+            "jopTitle":{
+                "color":"#04776c",
+                "fontSize":"20px"
+            },
+
+            "description":{
+                "color":"white",
+                "fontSize":"13px"
+            }
+        },    
+
+
+
+        "contact":{
+            "color":"white",
+            "fontSize":"14px"
+        },
+
+
+        
+        "mainLayout":{
+            "header_1":{
+                "color":"#009688",
+                "fontSize":"20px"
+            },
+            "header_2":{
+                "color":"black",
+                "fontSize":"18px"
+            },
+            
+            "workExText":{
+                "color":"black",
+                "fontSize":"14px"
+            },
+
+            "skillHeader":{
+                "color":"black",
+                "fontSize":"16px"
+            },
+            "skillText":{
+                "color":"black",
+                "fontSize":"14px"
+            }
+    }
+}
+}

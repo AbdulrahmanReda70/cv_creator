@@ -1,0 +1,355 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #313c4e;
+  color: #333;
+}
+* {
+  box-sizing: border-box; /* Include padding and border in width/height calculations */
+}
+
+section,
+.contact-section,
+.work-experience {
+  padding-right: 20px; /* Prevent text from touching edges */
+}
+
+.css-1wnsr1i {
+  max-height: 370px;
+  overflow: auto;
+}
+* {
+  word-wrap: break-word; /* Break long words onto the next line */
+  overflow-wrap: break-word; /* Add fallback for modern browsers */
+}
+
+p,
+li {
+  white-space: normal; /* Allow text to wrap */
+  max-width: 90%;
+  list-style: none;
+}
+
+.app {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+a {
+  width: 95%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: #555;
+}
+
+section {
+  padding: 20px;
+  padding-right: 36px;
+}
+
+header {
+  display: flex;
+  background-color: #34495e; /* Dark blue background */
+  padding: 30px 50px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  column-gap: 15px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 20px;
+  color: #04776c;
+  margin-bottom: 10px;
+}
+
+header .description {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+header .description p {
+  margin: 4px 0;
+  color: white;
+}
+
+header img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid #58959b;
+}
+
+.contact-section {
+  background-color: #212d39;
+  color: #ffffff;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+}
+
+.left-section {
+  word-break: break-all;
+}
+
+.right-section {
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 40px;
+}
+
+.contact-items {
+  width: 50%;
+}
+
+.contact-row div {
+  flex: 1;
+}
+
+svg {
+  min-width: 18px;
+  min-height: 18px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 4px;
+}
+.contact-row div p,
+.contact-row div a {
+  margin: 5px 0;
+  font-size: 14px;
+  color: white;
+}
+
+/* main layout */
+
+.main-layout {
+  display: flex;
+  column-gap: 25px;
+}
+
+.main-layout .right h4 {
+  padding-left: 12px;
+}
+/* Work Experience Section */
+.main-layout .left {
+  word-wrap: break-word;
+
+  min-width: 50%;
+}
+.main-layout .right {
+  min-width: 50%;
+  word-wrap: break-word;
+}
+
+.work-experience h3 {
+  border-bottom: 2px solid;
+  padding-bottom: 4px;
+  width: fit-content;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #009688;
+}
+
+.work-experience .experience-item {
+  margin-bottom: 20px;
+}
+
+.work-experience h4 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.work-experience p {
+  font-size: 14px;
+  line-height: 1.6;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.work-experience b {
+}
+
+.experience-item .description {
+  display: flex;
+}
+
+/* Experience Insights Section */
+.experience-insights .item {
+  display: flex;
+  column-gap: 3px;
+  margin-bottom: 8px;
+}
+.experience-insights h3 {
+  border-bottom: 2px solid;
+  padding-bottom: 4px;
+  margin-bottom: 20px;
+
+  width: fit-content;
+  font-size: 20px;
+  color: #009688;
+}
+
+.experience-insights ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.experience-insights h4 {
+  padding-left: 0 !important;
+  margin-bottom: 4px;
+  font-size: 20px;
+}
+
+.startTime {
+  font-style: italic;
+  color: #009688;
+}
+
+.experience-insights li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.skill-item {
+  margin-bottom: 17px;
+}
+
+.skill-item p {
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.skill-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f4f4f4;
+  font-size: 12px;
+  color: #7f8c8d;
+}
+
+.placeholder {
+  pointer-events: none;
+  color: #aaa !important; /* Light gray color for placeholder effect */
+  font-style: italic; /* Italicize the text to mimic a placeholder */
+  opacity: 0.8; /* Slight transparency */
+  text-align: left; /* Align text to the left (optional) */
+  margin: 0; /* Remove default margin if not needed */
+  transition: color 0.3s ease, opacity 0.3s ease; /* Smooth effect on hover */
+  margin: 8px 0;
+}
+
+@media (max-width: 680px) {
+  header {
+    padding: 30px 14px;
+    flex-direction: column-reverse;
+  }
+
+  .main-layout {
+    flex-direction: column;
+  }
+  .main-layout .left {
+    min-width: 100%;
+  }
+  .main-layout .right {
+    min-width: 100%;
+  }
+
+  .contact-row {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .contact-item {
+    min-width: 100% !important;
+    margin-bottom: 10px;
+    padding-right: 10px;
+  }
+  .contact-row div {
+    width: 100%;
+  }
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin-bottom: 33px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: column-reverse;
+  }
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    margin-bottom: 33px;
+  }
+  .css-1wnsr1i {
+    width: 300px !important;
+  }
+}
+@media print {
+  .app {
+    max-width: 100%;
+    margin: 0;
+  }
+  .no-print {
+    display: none !important;
+  }
+  button {
+    display: none;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  @page {
+    size: A4; /* Use A4 for a standard CV size */
+    margin: 0; /* Adjust the margins for a clean look */
+  }
+}
+
+.pdf-content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.pdf-content button {
+  display: none;
+}
