@@ -9,6 +9,15 @@ A React-based web application to help users easily create and generate their CVs
 - **Customizable templates**.
 - **Downloadable CV** in PDF format.
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/4fd9e3cb-82ce-4d4e-b4d8-96c383427321)
+
+![image](https://github.com/user-attachments/assets/84613a90-f520-4b78-8d0d-4e193fc4d55a)
+
+
+![image](https://github.com/user-attachments/assets/d9035234-0be5-486c-b749-2168d791cb28)
+
+
 ## Installation
 
 1. Clone the repository:
