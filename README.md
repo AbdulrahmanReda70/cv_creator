@@ -1,5 +1,5 @@
 
-# CV Creator
+# CV Creator (Freelance Project)
 
 A React-based web application to help users easily create and generate their CVs. This project allows you to fill in personal details, choose a template, and get a real-time preview of your CV. You can download your completed CV in different formats.
 
